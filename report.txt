@@ -1,0 +1,75 @@
+COMPARISON OF STR001 AND STR002
+
+Score: 1
+
+Alignment:
+str001:	0	d-eadly
+			d ea ly
+str002:	1	dgearly
+
+Score Matrix:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 6, 6, 2, 2, 0, 0, 0, 0, 0]
+[0, 2, 8, 4, 7, 3, 0, 0, 0, 1]
+[0, 0, 4, 8, 4, 11, 7, 3, 0, 0]
+[0, 6, 6, 4, 10, 7, 9, 5, 1, 0]
+[0, 2, 2, 2, 6, 9, 5, 13, 9, 5]
+[0, 0, 0, 0, 2, 5, 7, 9, 20, 16]
+
+p-value: 0.208
+
+///////////////////////////////////
+
+SCORE MATRIX:
+[1705, 143, 1496, 1016, 974, 889, 428, 368, 118, 56]
+[0, 1726, 128, 129, 128, 112, 144, 123, 150, 66]
+[0, 0, 1698, 1039, 998, 921, 440, 367, 118, 52]
+[0, 0, 0, 1590, 1147, 1089, 448, 414, 116, 61]
+[0, 0, 0, 0, 1537, 1100, 450, 410, 119, 72]
+[0, 0, 0, 0, 0, 1475, 449, 410, 114, 62]
+[0, 0, 0, 0, 0, 0, 1210, 446, 123, 45]
+[0, 0, 0, 0, 0, 0, 0, 1741, 118, 74]
+[0, 0, 0, 0, 0, 0, 0, 0, 740, 67]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 2414]
+
+///////////////////////////////////
+
+p-value for P15172 versus Q10574: 0.001
+p-value for P15172 versus O95363: 0.546
+
+////////////////////////////////////
+
+MYOD1_HUMAN (P15172): Protein found in humans that promotes transcription of muscle genes; helps to differentiate muscles; interacts with twist protein.
+TAL1_HUMAN  (P17542): Protein found in humans that plays an important role in stem cell (hemopoietic) differentiation.
+MYOD1_MOUSE (P10085): Protein found in mice that promotes transcription of muscle genes; helps to differentiate muscles; interacts with twist protein.
+MYOD1_CHICK (P16075): Protein found in chickens that promotes transcription of muscle genes; helps to differentiate muscles; interacts with twist protein.
+MYODA_XENLA (P13904): Protein found in frogs that promotes transcription of muscle genes; helps to differentiate muscles.
+MYOD1_DANRE (Q90477): Protein found in zebrafish that promotes transcription of muscle genes; helps to differentiate muscles.
+Q8IU24_BRABE (Q8IU24): Protein found in Amphioxus, promotes protein dimer activity (which is a formation of some macromolecule).
+MYOD_DROME (P22816): Protein found in fruit flies, may play a role in early muscle-cell development.
+LIN32_CAEEL (Q10574): Protein found Caenorhabditis elegans that helps to specify neuroblast cell-fate of peripheral sense organs.
+SYFM_HUMAN (O95363): Protein found in humans that has large role in translation process.
+
+/////////////////////////////////////
+
+Pre-Experiment Predictions:
+I think that MYOD1_HUMAN, MYOD1_MOUSE, and MYOD1_CHICK will be the most similar because they have almost identical functions (including twist protein interaction)
+just in different organisms. Some of the ones that I think will be most different from all the rest are TAL1_HUMAN (because stem cells are so special that I feel
+like the proteins that deal with them must be unique), LIN32_CAEEL, Q8IU24_BRABE (because they are not dealing with muscles).
+
+MYOD1_HUMAN (P15172): Similar
+TAL1_HUMAN  (P17542): Different
+MYOD1_MOUSE (P10085): Similar
+MYOD1_CHICK (P16075): Similar
+MYODA_XENLA (P13904): Similar
+MYOD1_DANRE (Q90477): Similar
+Q8IU24_BRABE (Q8IU24): Different
+MYOD_DROME (P22816): Similar
+LIN32_CAEEL (Q10574): Different
+SYFM_HUMAN (O95363): Different
+
+/////////////////////////////////////
+
+Post-Experiment Conclusions:
+I feel like my pre-experiment assessment was pretty good. However, there was a couple things that I was suprised by. I did not think that MYOD_DROME (P22816)
+would be as far from the other proteins as it actually was and I was shocked when I saw how low the scores for SYFM_HUMAN were.

@@ -1,0 +1,19 @@
+SmithWaterman.java is a SmithWaterman object that takes parameters:
+    - s1id: name of the first string
+    - s2id: name of the second string
+    - s1  : contents of the first string
+    - s2  : contents of the second string
+    - n   : number of trials for p-val
+
+SmithWaterman.java has methods that allow users to get the score, p-value, and print out of a comparision.
+
+In order to use SmithWaterman.java, just create a new SmithWaterman object. Example:
+
+    SmithWaterman ex1 = new SmithWaterman("str001", "str002", "deadly", "ddgearlyk", 999);
+    int score = ex1.score();
+    double p-val = ex1.pval();
+    ex1.printAlignment();
+
+To see SmithWaterman.java used for the trials outlined in the spec, run hw1driver.java
+
+
